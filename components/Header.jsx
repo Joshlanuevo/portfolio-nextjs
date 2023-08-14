@@ -57,7 +57,7 @@ const Header = () => {
             fgColor='white'
             bgColor='transparent'
           />
-          <p className='uppercase font-semibold hidden md:inline-flex text-sm text-white hover:text-[#F7AB0A]/40'>
+          <p className='uppercase font-semibold hidden md:inline-flex text-sm text-white hover:text-gray-500'>
             Contact me
           </p>
         </motion.div>
