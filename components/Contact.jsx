@@ -1,5 +1,7 @@
 import React from 'react';
+import Link from 'next/link';
 import userData from '../data/data';
+import { resumeLink } from '../resources/resume';
 
 const Contact = () => {
   return (
@@ -24,15 +26,21 @@ const Contact = () => {
               </a>{" "}
               or text messaging.
             </p>
-            <p className='text-gray-800 text-lg md:text-xl font-bold mb-2'>
+            <p className='text-gray-800 text-lg md:text-xl font-semibold mb-2'>
               Email: joshlanuevo11@gmail.com
             </p>
-            <p className='text-gray-800 text-lg md:text-xl font-bold mb-6'>
+            <p className='text-gray-800 text-lg md:text-xl font-semibold mb-6'>
               Phone: +63 9214577200
             </p>
-          </div>
-          <div className='hidden md:block'>
-            {/* You can add any additional contact form or other elements here */}
+            <Link href={resumeLink}>
+              <a
+                target="_blank"
+                className='py-3 px-6 md:px-3 uppercase bg-[#23272A] text-white rounded text-sm hover:bg-gray-500 focus:outline-none'
+                style={{ width: 'fit-content' }}
+              >
+                Download my resume
+              </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -41,3 +49,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
