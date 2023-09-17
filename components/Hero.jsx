@@ -55,7 +55,7 @@ const Hero = () => {
             fgColor='white'
             bgColor='gray'
           />
-          <SocialIcon url="https://www.linkedin.com/in/josh-ivan-lanuevo-6ba706203/" 
+          <SocialIcon url="https://www.linkedin.com/in/josh-lanuevo-48b563291/" 
             className='mx-3'
             target="_blank" 
             fgColor='white'
