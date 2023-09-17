@@ -30,7 +30,7 @@ const Footer = () => {
             fgColor='gray'
             bgColor='transparent'
           />
-          <SocialIcon url="https://www.linkedin.com/in/josh-ivan-lanuevo-6ba706203/" 
+          <SocialIcon url="https://www.linkedin.com/in/josh-lanuevo-48b563291/" 
             className='text-base font-normal text-gray-600 dark:text-gray-300'
             target="_blank" 
             fgColor='gray'
