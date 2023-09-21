@@ -35,6 +35,7 @@ const Contact = () => {
             <Link href={resumeLink}>
               <a
                 target="_blank"
+                onClick={event => event.preventDefault()}
                 className='py-3 px-6 md:px-3 uppercase bg-[#23272A] text-white rounded text-sm hover:bg-gray-500 focus:outline-none'
                 style={{ width: 'fit-content' }}
               >
