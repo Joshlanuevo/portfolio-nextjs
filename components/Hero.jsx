@@ -29,7 +29,7 @@ const Hero = () => {
         style={{ objectFit: 'cover' }}
       />
       <div className="z-20">
-        <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px] '>web developer</h2>
+        <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px] '>front end developer</h2>
         <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
             <span>{text}</span>
             <Cursor cursorColor='#F7AB0A' />
