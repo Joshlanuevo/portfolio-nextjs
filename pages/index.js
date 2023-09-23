@@ -50,7 +50,7 @@ export default function Home() {
             <div className='flex justify-center items-center animate-bounce'>
               <img 
                 className='h-8 w-8 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
-                src="https://www.pngfind.com/pngs/m/16-161912_up-arrow-transparent-images-double-up-arrow-icon.png" 
+                src="https://www.pngitem.com/pimgs/m/327-3273554_back-to-icon-free-up-arrow-png-transparent.png" 
                 alt="" 
               />
             </div>
