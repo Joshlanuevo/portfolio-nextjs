@@ -49,7 +49,7 @@ export default function Home() {
           <footer className='relative bottom-12 w-full cursor-pointer h-0'> 
             <div className='flex justify-center items-center animate-bounce'>
               <img 
-                className='h-8 w-8 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
+                className='h-8 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
                 src="https://www.pngitem.com/pimgs/m/327-3273554_back-to-icon-free-up-arrow-png-transparent.png" 
                 alt="" 
               />
