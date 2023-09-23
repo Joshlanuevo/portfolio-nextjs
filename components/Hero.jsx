@@ -9,7 +9,7 @@ import HeroImg from '../public/2x2-main.png'
 
 const Hero = () => {
   const [text] = useTypewriter({
-    words: ['Hello, my name is Josh Ivan', 'And I am a Web Developer'],
+    words: ['Hello, my name is Josh Ivan', 'And I am a Front End Developer'],
     loop: true,
     delaySpeed: 2000,
   })
