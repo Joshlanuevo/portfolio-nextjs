@@ -4,7 +4,7 @@
 
 @layer components {
     .heroButton {
-        @apply px-5 py-2 uppercase font-semibold text-sm tracking-widest text-white transition-all hover:text-gray-500 
+        @apply px-5 py-2 uppercase font-semibold text-sm tracking-widest transition-all 
         max-sm:px-2 max-sm:py-3
     }
 }
