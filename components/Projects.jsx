@@ -27,7 +27,7 @@ const Projects = () => {
             title='5J Company'
             label='Schoolwork'
             description='A product prototype for our Subject Technopreneurship.'
-            techUsed='React with styled component and Firebase'
+            techUsed='React with styled component'
             link='https://j-company-b7e2d.web.app/'
           />
           <ProjectCard
@@ -35,7 +35,7 @@ const Projects = () => {
             title='E-portfolio'
             label='Schoolwork'
             description='A compilation of seminars and certificates for my subject Seminars & Fieldtrips.'
-            techUsed='React, CSS, Firebase'
+            techUsed='React JS'
             link='https://e-portfolio-2022-lanuevo.web.app'
           />
         </div>
