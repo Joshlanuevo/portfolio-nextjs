@@ -54,7 +54,7 @@ const ProjectCard = ({ imageUrl, title, label, description, techUsed, link }) =>
         <h1 className='font-bold text-lg text-white'>{title}</h1>
         <p className='text-gray-500 mb-4'>{label}</p>
         <p className='text-gray-400 mb-4'>{description}</p>
-        <h4 className='text-center text-white mb-4'>{techUsed}</h4>
+        <h4 className='text-center text-white mb-4'>Tech Stack: {techUsed} </h4>
         <Link href={link} target='_blank'>
           <a
             className='mt-auto py-2 px-6 rounded bg-gray-500 text-white hover:bg-gray-700 focus:outline-none'
