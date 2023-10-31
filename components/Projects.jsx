@@ -17,6 +17,7 @@ const Projects = () => {
           <ProjectCard
             imageUrl={MernHomeWork}
             title='Mern Homework App'
+            label='Personal Project'
             description='A Web Application Homework todo app with user authentication that you can add, edit and delete your homework task.'
             techUsed='React, NodeJS, Express, MongoDB, Material-UI'
             link='https://mernapp-homework.herokuapp.com/login'
@@ -24,6 +25,7 @@ const Projects = () => {
           <ProjectCard
             imageUrl={FiveJCompany}
             title='5J Company'
+            label='Schoolwork'
             description='A product prototype for our Subject Technopreneurship.'
             techUsed='React with styled component and Firebase'
             link='https://j-company-b7e2d.web.app/'
@@ -31,6 +33,7 @@ const Projects = () => {
           <ProjectCard
             imageUrl={Eportfolio}
             title='E-portfolio'
+            label='Schoolwork'
             description='A compilation of seminars and certificates for my subject Seminars & Fieldtrips.'
             techUsed='React, CSS, Firebase'
             link='https://e-portfolio-2022-lanuevo.web.app'
@@ -41,7 +44,7 @@ const Projects = () => {
   );
 };
 
-const ProjectCard = ({ imageUrl, title, description, techUsed, link }) => {
+const ProjectCard = ({ imageUrl, title, label, description, techUsed, link }) => {
   return (
     <div className='rounded-lg overflow-hidden bg-[#23272A] border border-gray-300 md:border-none p-4 shadow-md w-full'>
       <div className='relative h-50 md:h-48 lg:h-64'>
@@ -49,6 +52,7 @@ const ProjectCard = ({ imageUrl, title, description, techUsed, link }) => {
       </div>
       <div className='p-4 flex flex-col gap-2 items-center'>
         <h1 className='font-bold text-lg text-white'>{title}</h1>
+        <p className='text-gray-500 mb-4'>{label}</p>
         <p className='text-gray-400 mb-4'>{description}</p>
         <h4 className='text-center text-white mb-4'>{techUsed}</h4>
         <Link href={link} target='_blank'>
