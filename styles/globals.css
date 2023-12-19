@@ -2,6 +2,12 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @layer components {
     .heroButton {
         @apply px-5 py-2 uppercase font-semibold text-sm tracking-widest transition-all 
@@ -43,11 +49,3 @@
     width: 75px;
     height: 75px;
 }
-
-.card {
-    width: clamp(20rem, calc(20rem + 2vw), 22rem);
-    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
-    border-radius: 1em;
-    background: #EAEAEA;
-}
-

@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import About from '../components/About';
+import Experience from '../components/Experience';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -28,6 +29,10 @@ export default function Home() {
         {/* About */}
         <section id='about'>
           <About />
+        </section>
+
+        <section id='experience'>
+          <Experience />
         </section>
 
         {/* Projects */}
