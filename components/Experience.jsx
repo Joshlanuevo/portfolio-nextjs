@@ -22,7 +22,7 @@ const Experience = () => {
             {/* Card */}
             <div className="bg-white p-6 rounded-lg ring ring-gray-500 ring-offset-4 ml-4 relative z-10">
               <h3 className="text-2xl font-medium text-gray-900">Software Developer</h3>
-              <hr className='mt-4 border-t-4 border-gray-300'/>
+              <hr className='mt-4 border-t-4 border-gray-300 rounded-sm'/>
               <p className="text-sm text-gray-500 mt-2 mb-2">November 2023 - Present</p>
               <p className="text-sm text-gray-500">
                 <span className="font-semibold">Responsibilities:</span>
@@ -42,12 +42,16 @@ const Experience = () => {
           {/* Experience Item 2 */}
           <div className="mb-8 max-w-md mx-auto relative flex items-center">
             {/* Tree Connector */}
-            {/* <div className="absolute top-0 left-1/2 transform -translate-x-1/2 h-full w-2 bg-indigo-500"></div> */}
+            <div className="absolute top-0 left-1/2 transform translate-y-1/4 h-full w-2 bg-indigo-500">
+              <div className="absolute bottom-0 left-1/8 transform -translate-x-1 translate-y-1/4 w-4 h-4 bg-indigo-500 rounded-full">
+                <div className="absolute bottom-0 left-1/8 w-4 h-4 bg-indigo-500 rounded-full animate-ping"></div>
+              </div>
+            </div>
 
             {/* Card */}
             <div className="bg-white p-6 rounded-lg ring ring-gray-500 ring-offset-4 ml-4 relative z-10">
               <h3 className="text-2xl font-medium text-gray-900">Front-end Developer Intern</h3>
-              <hr className='mt-4 border-t-4 border-gray-300'/>
+              <hr className='mt-4 border-t-4 border-gray-300 rounded-sm'/>
               <p className="text-sm text-gray-500 mt-2 mb-2">August 2023 - September 2023</p>
               <p className="text-sm text-gray-500">
                 <span className="font-semibold">Responsibilities:</span>
