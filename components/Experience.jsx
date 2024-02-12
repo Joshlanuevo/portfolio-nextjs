@@ -33,6 +33,9 @@ const Experience = () => {
                   <li>
                     Implemented a notification badge feature to display the count of unread messages on Android devices.
                   </li>
+                  <li>
+                    Implemented translation support for 11 languages in the app.
+                  </li>
                 </ul>
               </p>
               <p className="text-sm text-gray-500 mt-2 mb-2">Tech used: Kotlin/Java, Android</p>
