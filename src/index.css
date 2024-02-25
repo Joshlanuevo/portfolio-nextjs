@@ -1,0 +1,51 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@layer components {
+    .heroButton {
+        @apply px-5 py-2 uppercase font-semibold text-sm tracking-widest transition-all 
+        max-sm:px-2 max-sm:py-3
+    }
+}
+
+@media (max-width: 768px) {
+    .about-desc {
+        font-size: 16px;
+        line-height: normal;
+    }
+}
+
+@media (min-width: 768px) {
+    .skills-wrapper {
+      width: 75%;
+      margin: auto;
+    }
+}
+
+.div-logo-group > div > div {
+    font-size: 0.8rem;
+}
+
+.div-logo-group > div.div-category-frontend {
+    border-left: 0.3rem solid #ffee58;
+}
+
+.div-logo-group > div.div-category-backend {
+    border-left: 0.3rem solid #6358ff;
+}
+
+.div-logo-group > div.div-category-tools {
+    border-left: 0.3rem solid #c1c1c8;
+}
+
+.div-logo-group > div > img.box-picture {
+    width: 75px;
+    height: 75px;
+}
