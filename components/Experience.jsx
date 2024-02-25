@@ -28,13 +28,16 @@ const Experience = () => {
                 <span className="font-semibold">Responsibilities:</span>
                 <ul className="list-disc pl-5">
                   <li>
-                    Conducting monitoring and debugging for an existing mobile application developed in Kotlin for Android.
+                    Conducting monitoring and debugging for an existing android application developed in Kotlin for Android.
                   </li>
                   <li>
-                    Implemented a notification badge feature to display the count of unread messages on Android devices.
+                    Implemented a notification badge feature to display the count of unread messages of the android application.
                   </li>
                   <li>
                     Implemented translation support for 11 languages in the app.
+                  </li>
+                  <li>
+                    Integrate JPush to send messages from the Jiguang portal to Android devices.
                   </li>
                 </ul>
               </p>
@@ -53,7 +56,7 @@ const Experience = () => {
 
             {/* Card */}
             <div className="bg-white p-6 rounded-lg ring ring-gray-500 ring-offset-4 ml-4 relative z-10">
-              <h3 className="text-2xl font-medium text-gray-900">Front-end Developer Intern</h3>
+              <h3 className="text-2xl font-medium text-gray-900">Front-End Developer Intern</h3>
               <hr className='mt-4 border-t-4 border-gray-300 '/>
               <p className="text-sm text-gray-500 mt-2 mb-2">August 2023 - September 2023</p>
               <p className="text-sm text-gray-500">

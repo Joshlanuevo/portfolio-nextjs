@@ -36,7 +36,7 @@ const Contact = () => {
               <a
                 target="_blank"
                 onClick={event => event.preventDefault()}
-                className='py-3 px-6 md:px-3 uppercase bg-[#23272A] text-white hover:bg-gray-500 rounded text-sm focus:outline-none'
+                className='py-3 px-6 md:px-3 uppercase bg-[#23272A] text-white rounded text-sm focus:outline-none'
                 style={{ width: 'fit-content', opacity: 0.2 }}
               >
                 Download my resume
