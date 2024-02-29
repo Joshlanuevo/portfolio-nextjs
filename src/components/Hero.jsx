@@ -36,26 +36,30 @@ const Hero = () => {
 
         <div className="p-5">
           {/* Social Icons */}
-          <SocialIcon url="https://www.facebook.com/joshivanlanuevo" 
-            className='mx-3'
+          <SocialIcon 
+            url="https://www.facebook.com/joshivanlanuevo" 
+            className='mx-3 custom-class'
             target="_blank" 
             fgColor='white'
             bgColor='gray'
           />
-          <SocialIcon url="https://www.instagram.com/joshlanuevo/" 
-            className='mx-3'
+          <SocialIcon 
+            url="https://www.instagram.com/joshlanuevo/" 
+            className='mx-3 hover:text-ffee58'
             target="_blank" 
             fgColor='white'
             bgColor='gray'
           />
-          <SocialIcon url="https://github.com/Joshlanuevo" 
-            className='mx-3'
+          <SocialIcon 
+            url="https://github.com/Joshlanuevo" 
+            className='mx-3 hover:text-ffee58'
             target="_blank" 
             fgColor='white'
             bgColor='gray'
           />
-          <SocialIcon url="https://www.linkedin.com/in/josh-lanuevo-48b563291/" 
-            className='mx-3'
+          <SocialIcon 
+            url="https://www.linkedin.com/in/josh-lanuevo-48b563291/" 
+            className='mx-3 hover:text-ffee58'
             target="_blank" 
             fgColor='white'
             bgColor='gray'

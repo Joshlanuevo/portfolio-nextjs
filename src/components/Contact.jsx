@@ -32,7 +32,7 @@ const Contact = () => {
           <p className='text-gray-800 text-lg md:text-xl font-semibold mb-6'>
             Phone: +63 9214577200
           </p>
-          <Link href={resumeLink}>
+          {/* <Link href={resumeLink}>
             <a
               target="_blank"
               onClick={event => event.preventDefault()}
@@ -41,7 +41,7 @@ const Contact = () => {
             >
               Download my resume
             </a>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
