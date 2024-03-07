@@ -30,9 +30,9 @@ const Experience = () => {
                   <li>
                     Conducting monitoring and debugging for an existing android application developed in Kotlin for Android.
                   </li>
-                  <li>
+                  {/* <li>
                     Implemented a notification badge feature to display the count of unread messages of the android application.
-                  </li>
+                  </li> */}
                   <li>
                     Implemented translation support for 11 languages in the app.
                   </li>
